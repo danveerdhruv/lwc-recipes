@@ -14,6 +14,7 @@ export default class ApiSetterGetter extends LightningElement {
 
     handleDescriptionChange(event) {
         this.description = event.target.value;
+        console.log('Testing');
     }
 
     handlePriorityChange(event) {
